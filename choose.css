@@ -1,0 +1,148 @@
+body {
+background: linear-gradient(
+to right,
+rgb(98, 247, 255),   /* Light Sky Blue */
+rgb(255, 255, 255)    /* Soft Blue */
+);
+  
+}
+
+.aji h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 60PX;
+    background-color: #ffffff;
+    box-sizing: 15PX;
+   border:3px solid #003cff;
+    font-family: 'Times New Roman', Times, serif;
+ 
+    
+    
+}
+
+
+.button-container {
+    margin-right: 22%;
+    margin-top: 80px;
+    float: right;
+    gap: 50px;
+    border: 5PX black;
+   
+}
+
+.btn {
+    text-align: center;
+
+    cursor:grab;
+    font-size: 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+float: left;
+}
+
+.btn-1 {
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+    text-decoration:solid;
+    text-align-last: center;
+    text-align:center;
+    
+  
+    padding: 10px;
+            width: 50%;
+            margin-right: 15px;
+            margin-bottom: 15px;
+            border: 2px solid rgb(0, 4, 255);
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+
+}
+
+
+.btn-1:hover {
+    background-color: #00ff08 ;
+    transform: scale(1.1);
+    text-align: center;
+}
+
+.btn-2 {
+    background-color: #ffffff;
+    color: rgb(243, 4, 4);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+            width: 50%;
+           margin-right: 10px;
+           margin-bottom: 15px;
+            border: 2px solid rgb(0, 4, 255);
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+
+}
+
+.btn-2:hover {
+    background-color: #fffb00;
+    transform: scale(1.1);
+}
+.btn-3{
+    background-color: #ffffff;
+    color: rgb(243, 4, 4);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+            width: 50%;
+            margin-bottom: 15px;
+        
+            border: 2px solid rgb(0, 4, 255);
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+
+}
+
+.btn-3:hover {
+    background-color: #1e5aff;
+    transform: scale(1.1);
+}
+.btn-4{
+    background-color: #ffffff;
+    color: rgb(243, 4, 4);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+            width: 50%;
+          margin-right: 10px;
+          margin-bottom: 15px;
+            border: 2px solid rgb(0, 4, 255);
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+
+}
+
+.btn-4:hover {
+    background-color: #e0ff54;
+    transform: scale(1.1);
+}
+.btn-5{
+    background-color: #ffffff;
+    color: rgb(243, 4, 4);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+            width: 50%;
+            margin-bottom: 15px;
+            border: 2px solid rgb(0, 4, 255);
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+
+}
+
+.btn-5:hover {
+    background-color: #00ffff;
+    transform: scale(1.1);
+}
+

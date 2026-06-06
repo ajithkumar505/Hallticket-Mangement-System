@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    border: #0024c5;
+}
+
+h2, h3 {
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 5%;
+ 
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border: 2px solid rgb(0, 14, 206);
+  
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1eff00;
+}
+
+.hallticket {
+    border: 2px solid rgb(0, 14, 206);
+    padding: 15px;
+    background: #fff;
+    margin-top: 20px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #0024c5;
+    text-align: left;
+}
+
+th {
+    background: #ffffff;
+    color: rgb(255, 0, 0);
+    width: 40%;
+}
+#cd{
+    background-color: #fffb00;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .hallticket, .hallticket * {
+        visibility: visible;
+    }
+    .hallticket {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}
